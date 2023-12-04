@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import "./Hello\.css";
+import "./Hello.css";
 
 
-const Hello - (props) => {
+const Hello = (props) => {
  return (
     <div className = "f1 tc">
         <h1>Hello World</h1>
