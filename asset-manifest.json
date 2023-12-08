@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Ultron/static/css/main.e8397fed.css",
+    "main.js": "/Ultron/static/js/main.28126576.js",
+    "static/js/787.c2cff050.chunk.js": "/Ultron/static/js/787.c2cff050.chunk.js",
+    "static/media/SEGA.woff": "/Ultron/static/media/SEGA.47b4bfa94ef243af4a5b.woff",
+    "index.html": "/Ultron/index.html",
+    "main.e8397fed.css.map": "/Ultron/static/css/main.e8397fed.css.map",
+    "main.28126576.js.map": "/Ultron/static/js/main.28126576.js.map",
+    "787.c2cff050.chunk.js.map": "/Ultron/static/js/787.c2cff050.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8397fed.css",
+    "static/js/main.28126576.js"
+  ]
+}
