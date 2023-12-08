@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
+import ErrorBoundary from '../components/ErrorBoundary';
 import './App.css';
 import Scroll from '../components/Scroll'
 
@@ -30,14 +31,16 @@ class App extends Component {
         })
     return !robots.length ?
         <div className="vh-100 flex justify-center items-center"> 
-            <h1 classname = 'f1 tc'>Loading</h1>
+            <h1 classname = 'f1 tc'>LOADING</h1>
         </div>:
             (
             <div className = 'tc'>
                 <h1 className = 'f2'>We Dem Boyz</h1>
                 <SearchBox searchChange = {this.onSearchChange}/>
                 <Scroll>
-                    <CardList robots = {filteredRobots}/>
+                    <ErrorBoundary>
+                        <CardList robots = {filteredRobots}/>
+                    </ErrorBoundary>
                 </Scroll>
             </div>);
     }
